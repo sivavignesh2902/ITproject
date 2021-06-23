@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/studentlogin.css">
+    <meta name="author" content="S.Siva Vignesh (2020115086)">
+    <title>SSV Institutions</title>
+</head>
+<body>
+    <header>
+        <img src="../images/logo.png" alt="ABC" id="logo" />
+        <h1>SSV Institutions</h1>
+        <nav>
+            <ul>
+                <li id="firstli"><a href="./index.html">Home</a> </li>
+                <li><a href="./admission.html">Admission & Courses Offered</a> </li>
+                <li><a href="./applyonline.html">Apply Online</a> </li>
+                <li><a href="./studentlogin.html">Student Login</a> </li>
+                <li><a href="./adminlogin.html">Admin Login</a> </li>
+            </ul> 
+        </nav>
+    </header>
+    <script src="../js/showform.js"></script>
+    <div id="student_login">
+        <div id="login">
+            <h2>Student Login</h2>
+            <form method="POST" action = "../php/studentlogin.php" >
+            <label>Username</label>
+            <input type="'text" name="uname" /><br />
+            <label>Password</label>
+            <input type="'password" name="pwd" /><br />
+            <input type="submit" name="login" value="Login" />
+             <p id="next1" >New Student  <a onclick="showsignup()" >Register Here</a></p>
+            </form>
+            </div>
+        <div id="signup">
+            <h2>New Student - Registration Form</h2>
+            <form method="POST" action = "../php/studentsignup.php" >
+            <label id="fname" >First Name</label>
+            <input type="text" name="fname" />
+            <label id="lname">Last Name</label>
+            <input type="text" name="lname" /><br />
+            <label id="dob">Date Of birth</label>
+            <input type="date" placeholder="dd-mm-yyyy" name="dob" />
+            <label id="brgp">Blood Group</label>
+            <input type="text" name="brgp" /><br />
+            <label id="fathername">Father Name</label>
+            <input type="text" name="faname" />
+            <label id="fatherocc">Father Occupation</label>
+            <input type="text" name="foccu" /><br />
+            <label id="mothername">Mother Name</label>
+            <input type="text" name="moname" />
+            <label id="motheroccu">Mother's Occupation</label>
+            <input type="text" name="moccu" /><br />
+            <label id="email">E-Mail</label>
+            <input type="email" name="email" />
+            <label id="phone">Phone Number</label>
+            <input type="number" name="phone" /><br />
+            <label id="caddress">Communication Address</label>
+            <textarea name="address" id="address1" title="Communication Address" placeholder="Enter your house address here" ></textarea>
+            <br />
+            <input type="checkbox" name="siblings" value="yes" /><label>Do you have any siblings studying/studied previously here?</label>
+            <br />
+            <input type="checkbox" name="hosteller" value="yes" /><label>Are you a hosteller?</label><br />
+            <label id="Username">Username</label>
+            <input type="text" name="uname" required/><br />
+            <label id="npwd">New Password</label>
+            <input type="password" name="pwd" required /><br />
+            <label id="cpwd">Confirm Password</label>
+            <input type="text" name="cpwd" required/><br />
+            <input type="submit" name="signup" value="SignUp" />
+            <p id="next2">Already Registered <a onclick="showlogin()" >Login Here</a></p>
+        </form>
+        </div>
+    </div>
+</body>
+</html>

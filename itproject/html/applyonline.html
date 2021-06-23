@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/applyonline.css">
+    <meta name="author" content="S.Siva Vignesh (2020115086)">
+    <title>SSV Institutions</title>
+</head>
+<body>
+    <script src="../js/enquiry.js"></script>
+    <header>
+        <img src="../images/logo.png" alt="ABC" id="logo" />
+        <h1>SSV Institutions</h1>
+        <nav>
+            <ul>
+                <li id="firstli"><a href="./index.html">Home</a> </li>
+                <li><a href="./admission.html">Admission & Courses Offered</a> </li>
+                <li><a href="./applyonline.html">Apply Online</a> </li>
+                <li><a href="./studentlogin.html">Student Login</a> </li>
+                <li><a href="./adminlogin.html">Admin Login</a> </li>
+            </ul> 
+        </nav>
+    </header>
+    <div id="online_application">
+        <h2>Apply Online</h2>
+        <form method="POST" action="../php/applyonline.php">
+            <label id="fname" >First Name</label>
+            <input type="text" name="fname" />
+            <label id="lname">Last Name</label>
+            <input type="text" name="lname" /><br />
+            <label id="fathername">Father Name</label>
+            <input type="text" name="fathername" />
+            <label id="mothername">Mother Name</label>
+            <input type="text" name="mothername" /> <br />
+            <label id="community">Community</label>
+            <select name="communities" id='communities'>
+                <option value="oc">OC</option>
+                <option value="bc">BC</option>
+                <option value="sc">SC/ST</option>
+                <option value="other">Others</option>
+            </select>
+            <label id="brgp">Blood Group</label>
+            <input type="text" name="brgp" /><br />
+            <label id="phone">Phone Number</label>
+            <input name="phone" type="number" maxlength="10" />
+            <label id="email">Email</label>
+            <input type="email" name="email" /><br />
+            <label id="tenth">10th Marksheet</label>
+            <input type="file" name="mark11" required/>
+            <label id="twelveth">12th Marksheet</label>
+            <input type="file" name="mark12" /><br />
+            <input type="checkbox" name="accept_terms" required id="checking" /><label>I hereby declare that the above given information are true to the best of my knowledge</label>
+            <br />
+            <input type="submit" name="apply" value="Apply" />
+        </form>
+    </div>
+    <br />
+    <div id="orquery">
+        <p id="or">OR</p>
+        <p id="leave">Leave us a query</p>
+    </div>
+    <div id="enquiry_form">
+        <div>
+            <h1>Enquiry Form</h1>
+        <p>We are serving 24/7 to work upon your Queries</p>
+        <form method="POST" action="../php/applyonline.php" onsubmit="showmsg()" >
+            <label>Name</label>
+            <input type="text" name="name" required/><br />
+            <label>Phone</label>
+            <input type="number" name="phone" required/><br />
+            <label>E-Mail</label>
+            <input type="email" name="email"  /> <br />
+            <label>Your Query</label>
+            <textarea id="query" name="query" placeholder="Enter Your Query Here" required></textarea><br />
+            <input type="submit" name="submit" value="Send Enquiry" />
+        </form>
+        </div>
+        <div id="query">
+            <h1>Enquiries</h1>
+            <p>These are some of the queries</p>
+            <div id="allqueries"></div>
+        </div>
+    </div>
+</body>
+</html>

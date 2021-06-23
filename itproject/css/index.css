@@ -1,0 +1,358 @@
+body{
+    scroll-behavior: smooth;
+    background: antiquewhite;
+}
+header{
+    height: 142px;
+    background: brown;
+    display: block;
+    color: #a0fff8;
+}
+header img{
+    width: 150px;
+}
+header img,header h1{
+    display: inline;
+    float: left;
+}
+header h1{
+    margin-top: 45px;
+    margin-left: 58px;
+    color: #faebd7;
+}
+
+nav li:hover{
+    animation: showborder 2s linear infinite;
+}
+@keyframes showborder {
+    0%{
+        border-bottom:  3px solid #deb887;
+        border-radius: 25%;
+    }
+    50%{
+        border-bottom:  3px solid #deb887; 
+        border-radius: 50%;
+    }
+    100%{
+        border-bottom:  3px solid #deb887; 
+        border-radius: 25%;
+    }
+}
+
+#body_content{
+    margin-top: 50px;
+}
+nav{
+    margin-left: 356px;
+}
+nav li{
+    display: inline;
+    float: left;
+    list-style: none;
+    font-size: 25px;
+    padding: 15px;
+    margin-top: 35px;    
+}
+li a{
+    text-decoration: none;
+    color: #faebd7;
+}
+#history h3{
+    margin-top: 50px ;
+}
+#main{
+    width: 50%;
+}
+#firstli{
+    margin-left: 110px;
+}
+
+#about{
+    animation: boxshadows 5s linear infinite;
+    box-shadow: 0px 0px 15px 15px;
+    display: block;
+    height: 250px;
+    margin: 10px;
+}
+@keyframes boxshadows {
+    0%{
+        box-shadow: 0px 0px 15px 15px sandybrown;
+    }
+    25%{
+        box-shadow: 20px 16px 15px 15px sandybrown;
+    }
+    50%{
+        box-shadow: -12px 10px 15px 15px sandybrown;
+    }
+    100%{
+        box-shadow: -8px 15px 15px 15px sandybrown;
+    }
+}
+#about img,#about p{
+    display: inline;
+}
+#about img{
+    float: left;
+    width: 260px;
+    height: 139px;
+    margin-right: 28px;
+    margin-left: 10px;
+}
+#about p{
+    font-size: 20px;
+}
+#about h3{
+    font-size: 27px;
+    text-align: center;
+    margin-top: 0px;
+}
+#history{
+    animation: boxshadows 5s linear infinite;
+    box-shadow: 0px 0px 15px 15px;
+    display: block;
+    height: 250px;
+    margin: 10px;
+    padding-left: 15px;
+}
+@keyframes boxshadows {
+    0%{
+        box-shadow: 0px 0px 15px 15px sandybrown;
+    }
+    25%{
+        box-shadow: 20px 16px 15px 15px sandybrown;
+    }
+    50%{
+        box-shadow: -12px 10px 15px 15px sandybrown;
+    }
+    100%{
+        box-shadow: -8px 15px 15px 15px sandybrown;
+    }
+}
+#history img,#history p{
+    display: inline;
+}
+#history img{
+    float: right;
+    width: 260px;
+    height: 139px;
+    margin-right: 28px;
+    margin-left: 10px;
+}
+#history p{
+    font-size: 20px;
+    padding-left: 15px;
+}
+#history h3{
+    font-size: 27px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+
+#Staffs{
+    animation: boxshadows 5s linear infinite;
+    box-shadow: 0px 0px 15px 15px;
+    display: block;
+    height: 250px;
+    margin: 10px;
+}
+@keyframes boxshadows {
+    0%{
+        box-shadow: 0px 0px 15px 15px sandybrown;
+    }
+    25%{
+        box-shadow: 20px 16px 15px 15px sandybrown;
+    }
+    50%{
+        box-shadow: -12px 10px 15px 15px sandybrown;
+    }
+    100%{
+        box-shadow: -8px 15px 15px 15px sandybrown;
+    }
+}
+#Staffs img,#Staffs p{
+    display: inline;
+}
+#Staffs img{
+    float: left;
+    width: 260px;
+    height: 139px;
+    margin-right: 28px;
+    margin-left: 10px;
+}
+#Staffs p{
+    font-size: 20px;
+}
+#Staffs h3{
+    font-size: 27px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+
+#Students{
+    animation: boxshadows 5s linear infinite;
+    box-shadow: 0px 0px 15px 15px;
+    display: block;
+    height: 250px;
+    margin: 10px;
+    padding-left: 15px;
+}
+@keyframes boxshadows {
+    0%{
+        box-shadow: 0px 0px 15px 15px sandybrown;
+    }
+    25%{
+        box-shadow: 20px 16px 15px 15px sandybrown;
+    }
+    50%{
+        box-shadow: -12px 10px 15px 15px sandybrown;
+    }
+    100%{
+        box-shadow: -8px 15px 15px 15px sandybrown;
+    }
+}
+#Students img,#Students p{
+    display: inline;
+}
+#Students img{
+    float: right;
+    width: 260px;
+    height: 139px;
+    margin-right: 28px;
+    margin-left: 10px;
+}
+#Students p{
+    font-size: 20px;
+}
+#Students h3{
+    font-size: 27px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+
+
+#notable{
+    animation: boxshadows 5s linear infinite;
+    box-shadow: 0px 0px 15px 15px;
+    display: block;
+    height: 250px;
+    margin: 10px;
+}
+@keyframes boxshadows {
+    0%{
+        box-shadow: 0px 0px 15px 15px sandybrown;
+    }
+    25%{
+        box-shadow: 20px 16px 15px 15px sandybrown;
+    }
+    50%{
+        box-shadow: -12px 10px 15px 15px sandybrown;
+    }
+    100%{
+        box-shadow: -8px 15px 15px 15px sandybrown;
+    }
+}
+#notable img,#notable p{
+    display: inline;
+}
+#notable img{
+    float: left;
+    width: 260px;
+    height: 139px;
+    margin-right: 28px;
+    margin-left: 10px;
+}
+#notable p{
+    font-size: 20px;
+}
+#notable h3{
+    font-size: 27px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+
+#hod{
+    animation: boxshadows 5s linear infinite;
+    box-shadow: 0px 0px 15px 15px;
+    display: block;
+    height: 300px;
+    margin: 10px;
+    padding-left: 15px;
+}
+@keyframes boxshadows {
+    0%{
+        box-shadow: 0px 0px 15px 15px sandybrown;
+    }
+    25%{
+        box-shadow: 20px 16px 15px 15px sandybrown;
+    }
+    50%{
+        box-shadow: -12px 10px 15px 15px sandybrown;
+    }
+    100%{
+        box-shadow: -8px 15px 15px 15px sandybrown;
+    }
+}
+#hod img,#hod p{
+    display: inline;
+}
+#hod img{
+    float: right;
+    width: 260px;
+    height: 159px;
+    margin-right: 28px;
+    margin-left: 10px;
+}
+#hod p{
+    font-size: 20px;
+    padding-left: 15px;
+}
+#hod h3{
+    font-size: 27px;
+    text-align: center;
+    margin-top: 0px;
+}
+footer li a{
+    color: #ff0000;
+}
+
+#social,#contact,#address,#image img {
+    display: inline;
+    float: left;
+    font-size: 20px;
+    margin-right: 52px;
+}
+#image img{
+    width: 252px;
+    margin-right: 70px;
+}
+#contact,#address{
+    border-left: 5px solid #75796e;
+    height: 200px;
+    padding-left: 94px;
+}
+footer h1{
+    text-align: center;
+    margin-top:55px;
+}
+section{
+    padding-top: 35px;
+}
+#Students,#history,#Staffs,#notable,#hod{
+    margin-top: 55px;
+}
+#address a{
+    text-decoration: none;
+    color: #ff0000;
+}
+#body_content{
+    padding-bottom: 30px;
+    border-bottom: 5px solid grey;
+}
+
+#image,#social,#contact,#address{
+    margin-bottom: 35px;
+}

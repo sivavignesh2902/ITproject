@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/adminlogin.css">
+    <meta name="author" content="S.Siva Vignesh (2020115086)">
+    <title>SSV Institutions</title>
+</head>
+<body>
+    <header>
+    <img src="../images/logo.png" alt="ABC" id="logo" />
+    <h1>SSV Institutions</h1>
+    <nav>
+        <ul>
+            <li id="firstli"><a href="./index.html">Home</a> </li>
+            <li><a href="./admission.html">Admission & Courses Offered</a> </li>
+            <li><a href="./applyonline.html">Apply Online</a> </li>
+            <li><a href="./studentlogin.html">Student Login</a> </li>
+            <li><a href="./adminlogin.html">Admin Login</a> </li>
+        </ul> 
+    </nav>
+</header>
+    <div id="adminlogin" >
+    <div id="imagecontainer">
+        <img src="../images/logo.png" alt="ezee education" id="logo" />
+    </div>
+
+    <div id="adminform">
+    <h1>Admin Login</h1>
+    <form method="POST" action="../php/adminlogin.php">
+        <label>User Name</label>
+        <input type="text" name="uname" /><br />
+        <label>Password</label>
+        <input type="password" name="pwd" /><br />
+        <input type="submit" name="submit" />
+    </form>
+</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,223 @@
+body{
+    scroll-behavior: smooth;
+    background: antiquewhite;
+}
+header{
+    height: 142px;
+    background: brown;
+    display: block;
+    color: #a0fff8;
+}
+header img{
+    width: 150px;
+}
+header img,header h1{
+    display: inline;
+    float: left;
+}
+header h1{
+    margin-top: 45px;
+    margin-left: 58px;
+    color: #faebd7;
+}
+#body_content{
+    margin-top: 50px;
+}
+nav{
+    margin-left: 356px;
+}
+li a{
+    text-decoration: none;
+    color: #faebd7;
+}
+nav li:hover{
+    animation: showborder 2s linear infinite;
+}
+@keyframes showborder {
+    0%{
+        border-bottom:  3px solid #deb887;
+        border-radius: 25%;
+    }
+    50%{
+        border-bottom:  3px solid #deb887; 
+        border-radius: 50%;
+    }
+    100%{
+        border-bottom:  3px solid #deb887; 
+        border-radius: 25%;
+    }
+}
+
+nav li{
+    display: inline;
+    float: left;
+    list-style: none;
+    font-size: 25px;
+    padding: 15px;
+    margin-top: 35px;    
+}
+li a{
+    text-decoration: none;
+    color: #faebd7;
+}
+#about h3{
+    margin-top: 50px ;
+}
+#main{
+    width: 50%;
+}
+#firstli{
+    margin-left: 110px;
+}
+footer li a{
+    color: #ff0000;
+}
+
+#social,#contact,#address,#image img {
+    display: inline;
+    float: left;
+    font-size: 20px;
+    margin-right: 55px;
+}
+#image img{
+    width: 252px;
+    margin-right: 70px;
+}
+#contact,#address{
+    border-left: 5px solid #75796e;
+    height: 200px;
+    padding-left: 94px;
+}
+footer h1{
+    text-align: center;
+    margin-top:55px;
+}
+section{
+    padding-top: 35px;
+}
+#address a{
+    text-decoration: none;
+    color: #ff0000;
+}
+#image,#social,#contact,#address{
+    margin-bottom: 35px;
+}
+form{
+    padding: 25px;
+    box-shadow: 0px 0px 50px 5px #a52a2a;
+    width: 819px;
+    margin-top: 50px;
+    margin-left: 330px;
+    height: 350px;
+}
+form label{
+    font-size: 25px;
+}
+form input{
+    height: 32px;
+    width: 225px;
+}
+
+#online_application h2{
+    margin-left: 700px;
+}
+#enquiry_form form{
+    height: 456px;
+    width: 261px;
+    margin-left:113px;
+    padding-left: 53px;
+    float: left;
+}
+#enquiry_form h1,#enquiry_form p{
+    text-align: center;
+}
+#orquery{
+    text-align: center;
+    border: 2px solid #8b4513;
+    width: 247px;
+    margin-left: 648px;
+    border-radius: 39px;
+    margin-top: 15px;
+    font-size: 23px;
+}
+#fname{
+    margin-right: 39px;
+}
+#lname{
+    margin-left: 49px;
+    margin-right: 30px;
+}
+#fathername{
+    margin-right: 21px;
+}
+#mothername{
+    margin-left: 48px;
+}
+#community{
+    margin-right: 32px;
+}
+#brgp{
+    margin-left: 200px;
+    margin-right: 9px;
+}
+#phone{
+    margin-right: 1px;
+}
+#email{
+    margin-right: 80px;
+    margin-left: 47px;
+}
+#tenth{
+    margin-right: 16px;
+}
+#twelveth{
+    margin-left: 28px;
+}
+#communities{
+    height: 32px;
+    width: 81px;
+}
+#online_application form input{
+    margin-top: 10px;
+}
+#checking{
+    height: 15px;
+    width: 15px;
+}
+#enquiry_form form input{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#enquiry_form form textarea{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    min-width: 227px;
+    min-height: 53px;
+    overflow: scroll;
+}
+#allqueries{
+    float: right;
+    min-height: 507px;
+    min-width: 976px;
+    background-color: #00ff62;
+    max-height: 361px;
+    max-width: 1025px;
+    display: inline;
+    overflow: scroll;
+}
+#enquiry_form{
+    margin-bottom: 700px;
+   
+
+}
+#enquiry_form form{
+    margin-top: 90px;
+}
+#enquiry_form h1,#enquiry_form p{
+    text-align: start;
+    margin-left: 126px;
+}
+#query h1,#query p{
+    text-align: center;
+    margin-left: 484px;
+}
