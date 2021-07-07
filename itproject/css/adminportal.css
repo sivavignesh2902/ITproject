@@ -1,0 +1,197 @@
+#crct{
+  display: none;
+}
+body{
+  scroll-behavior: smooth;
+  margin: 0px;
+}
+#logo{
+    width: 150px;
+    display: inline;
+    float: left;
+}
+header h1{
+    display: inline;
+    float: left;
+}
+#left_navbar{
+  float: left;
+}
+/*header styling*/
+ul{
+  height: 31px;
+  text-align: center;
+  width: 1506px;
+  background: bisque;
+  padding: 15px;
+}
+ul li{
+  display: inline;
+  float: left;
+  margin-right: 25px;
+}
+ul li a{
+  font-size: 26px;
+  color: #970909;
+  text-decoration: none;
+  font-weight: 900;
+}
+#home{
+  margin-left: 290px;
+}
+ul li:hover{
+  border-bottom: 5px solid brown
+}
+
+header{
+  display: block;
+  background: linear-gradient(45deg, #bc2424, transparent);
+  height: 165px;
+  width: 102%;
+}
+header h1{
+  margin-top: 31px;
+  margin-left: 52px;
+  color: #ffffaf;
+}
+header h3{
+  margin-top: 73px;
+  margin-left: 234px;
+  font-size: 26px;
+  color: #7ce810;
+}
+#logout{
+  position: absolute;
+  top: 111px;
+  right: 93px;
+  width: 155px;
+  height: 40px;
+  font-size: 20px;
+  background: brown;
+  color: beige;
+}
+#body_content{
+  margin-left: 0px;
+  padding-bottom: 150px;
+}
+
+#total_students,#total_staffs{
+  display: inline;
+  float: left;
+  margin-top: 25px;
+}
+#total_applications,#total_enqueries{
+  display: inline;
+  float: left;
+  margin-top: 25px;
+}
+#total_vacancies,#add_update{
+  display: inline;
+  float: left;
+  margin-top: 25px;
+}
+#total_students{
+  position: absolute;
+  top: 36px;
+  width: 216px;
+  padding-left: 55px;
+  position: relative;
+  top: 7px;
+  left: 117px;
+  
+}
+#total_staffs{
+  position: absolute;
+  top: 36px;
+  left: 650px;
+  width: 216px;
+  padding-left: 55px;
+  position: relative;
+  top: 7px;
+  left: 185px;
+}
+#total_applications{
+  position: absolute;
+  top: 246px;
+  width: 216px;
+    padding-left: 55px;
+    position: relative;
+    top: -9px;
+    left: 234px;
+}
+#total_enqueries{
+  position: absolute;
+  top: 246px;
+  left: 650px;
+  width: 216px;
+  padding-left: 55px;
+  position: relative;
+  top: 30px;
+  left: 117px;
+}
+#total_vacancies{
+  position: absolute;
+  top: 450px;
+  width: 216px;
+  padding-left: 55px;
+  margin-bottom: 15px;
+  position: relative;
+  top: 31px;
+  left: 185px;
+}
+#add_update{
+  position: absolute;
+  top: 450px;
+  left: 650px;
+  width: 216px;
+  padding-left: 55px;  
+  height: 151px;
+  position: relative;
+  top: 31px;
+  left: 240px;
+}
+#body_content h1{
+  font-size: 52px;
+  margin-left: 690px;
+}
+#boxes{
+  position: relative;
+  height: 550px;
+}
+#boxes div{
+  border-radius: 22px;
+  box-shadow: 0px 0px 16px 9px #f4a460;
+  width: 350px;
+  height: 181px;
+}
+#boxes div:hover{
+  transform: translate(0px,-15px);
+}
+header #head{
+  position: absolute;
+  top: 25px;
+  right: 96px;
+}
+header #user{
+  position: absolute;
+  top: 55px;
+  right: 125px;
+  color: #970909;
+}
+#body_content section{
+  padding: 15px;
+}
+#body_content{
+  background-image: url('../images/admin_bg.jpg');
+  background-size: cover;
+}
+#total_students a,#total_staffs a,#total_applications a,#total_enqueries a,#total_vacancies a,#add_update a{
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  padding: 8px;
+  background: transparent;
+}
+#total_students a:hover,#total_staffs a:hover,#total_applications a:hover,#total_enqueries a:hover,#total_vacancies a:hover,#add_update a:hover{
+  box-shadow: 5px 4px 8px 5px #f4a460;
+}

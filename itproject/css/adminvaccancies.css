@@ -1,0 +1,173 @@
+body{
+  scroll-behavior: smooth;
+  margin: 0px;
+}
+#logo{
+    width: 150px;
+    display: inline;
+    float: left;
+}
+header h1{
+    display: inline;
+    float: left;
+}
+#left_navbar{
+  float: left;
+}
+/*header styling*/
+ul{
+  height: 31px;
+  text-align: center;
+  width: 1506px;
+  background: bisque;
+  padding: 15px;
+}
+ul li{
+  display: inline;
+  float: left;
+  margin-right: 25px;
+}
+ul li a{
+  font-size: 26px;
+  color: #970909;
+  text-decoration: none;
+  font-weight: 900;
+}
+#home{
+  margin-left: 290px;
+}
+ul li:hover{
+  border-bottom: 5px solid brown
+}
+
+header{
+  display: block;
+  background: linear-gradient(45deg, #bc2424, transparent);
+  height: 165px;
+}
+header h1{
+  margin-top: 31px;
+  margin-left: 52px;
+  color: #ffffaf;
+}
+header h3{
+  margin-top: 73px;
+  margin-left: 234px;
+  font-size: 26px;
+  color: #7ce810;
+}
+#logout{
+  position: absolute;
+  top: 111px;
+  right: 93px;
+  width: 155px;
+  height: 40px;
+  font-size: 20px;
+  background: brown;
+  color: beige;
+}
+#body_content{
+  top: 80px;
+  left: 301px;
+}
+#add_vacancy form label,#add_vacancy form input{
+  font-size: 28px;
+}
+
+select{
+  height: 47px;
+  width: 355px;
+  font-size: 23px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#add_vacancy{
+  margin-left: 500px;
+}
+input{
+  margin-top: 15px;
+}
+form{
+  width: 450px;
+  border: 5px solid rgb(18, 54, 36);
+  margin-top: 47px;
+  padding-left: 50px;
+  padding: 27px;
+}
+#add_vacancy h1{
+  font-size: 35px;
+}
+input[type='submit']{
+  background: #faebd7;
+  color: #b22222;
+  font-weight: 600;
+  padding: 11px;
+}
+table,th,td{
+  border: 5px solid #bc2424;
+  padding: 15px;
+  text-align: center;
+}
+table{  
+  width: 98%;
+  margin-left: 11px;
+  font-size: 25px;
+}
+#del,#fill,#fill1{
+  height: 35px;
+  width: 120px;
+  cursor: pointer;
+}
+#fill,#fill1{
+  background-color: #f5f5f5;
+  border: 3px solid green;
+  color: #008000;
+}
+#del{
+  color: #ff0000;
+  border: 2px solid #ff0000;
+  background-color: #f5f5f5;
+}
+header #head{
+  position: absolute;
+  top: 25px;
+  right: 96px;
+}
+header #user{
+  position: absolute;
+  top: 55px;
+  right: 125px;
+  color: #970909;
+}
+#fillform,#unfillform,#del{
+  width: 0px;
+  border: none;
+  margin-top: 0px;
+  padding-left: 0px;
+  padding: 0px;
+}
+#fill,#fill1{
+  padding: 8px;
+  position: relative;
+  left: 35px;
+  bottom: 10px;
+  font-weight: bold;
+}
+#del_btn{
+  width: 86px;
+    font-size: 16px;
+    background: red;
+    color: white;
+    position: relative;
+    left: 20px;
+    bottom: 19px;
+}
+#vacancies h1{
+  margin-left: 15px;
+}
+.logout_form{
+  width: 0px;
+  border: none;
+  margin-top: 0px;
+  padding: 0px;
+}

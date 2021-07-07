@@ -31,28 +31,15 @@ li a{
     color: #faebd7;
 }
 nav li:hover{
-    animation: showborder 2s linear infinite;
-}
-@keyframes showborder {
-    0%{
-        border-bottom:  3px solid #deb887;
-        border-radius: 25%;
-    }
-    50%{
-        border-bottom:  3px solid #deb887; 
-        border-radius: 50%;
-    }
-    100%{
-        border-bottom:  3px solid #deb887; 
-        border-radius: 25%;
-    }
-}
+    transform: translateY(-7px);
+    text-shadow: 0px 20px 11px black;
+} 
 
 nav li{
     display: inline;
     float: left;
     list-style: none;
-    font-size: 25px;
+    font-size: 23px;
     padding: 15px;
     margin-top: 35px;    
 }
@@ -67,7 +54,7 @@ li a{
     width: 50%;
 }
 #firstli{
-    margin-left: 110px;
+    margin-left: 40px;
 }
 
 footer li a{
@@ -156,3 +143,8 @@ form input{
     font-size: 16px;
 }
 
+
+#adminform h3{
+    position: relative;
+    left: 175px;
+}

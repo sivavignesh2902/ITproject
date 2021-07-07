@@ -1,3 +1,4 @@
+@media (min-width:1000px){
 body{
     scroll-behavior: smooth;
     background: antiquewhite;
@@ -21,24 +22,6 @@ header h1{
     color: #faebd7;
 }
 
-nav li:hover{
-    animation: showborder 2s linear infinite;
-}
-@keyframes showborder {
-    0%{
-        border-bottom:  3px solid #deb887;
-        border-radius: 25%;
-    }
-    50%{
-        border-bottom:  3px solid #deb887; 
-        border-radius: 50%;
-    }
-    100%{
-        border-bottom:  3px solid #deb887; 
-        border-radius: 25%;
-    }
-}
-
 #body_content{
     margin-top: 50px;
 }
@@ -49,10 +32,14 @@ nav li{
     display: inline;
     float: left;
     list-style: none;
-    font-size: 25px;
+    font-size: 23px;
     padding: 15px;
     margin-top: 35px;    
 }
+nav li:hover{
+    transform: translateY(-7px);
+    text-shadow: 0px 20px 11px black;
+} 
 li a{
     text-decoration: none;
     color: #faebd7;
@@ -64,15 +51,15 @@ li a{
     width: 50%;
 }
 #firstli{
-    margin-left: 110px;
+    margin-left: 40px;
 }
 
 #about{
     animation: boxshadows 5s linear infinite;
     box-shadow: 0px 0px 15px 15px;
     display: block;
-    height: 250px;
     margin: 10px;
+    min-height: 350px;
 }
 @keyframes boxshadows {
     0%{
@@ -110,9 +97,9 @@ li a{
     animation: boxshadows 5s linear infinite;
     box-shadow: 0px 0px 15px 15px;
     display: block;
-    height: 250px;
     margin: 10px;
     padding-left: 15px;
+    min-height: 350px;
 }
 @keyframes boxshadows {
     0%{
@@ -153,7 +140,7 @@ li a{
     animation: boxshadows 5s linear infinite;
     box-shadow: 0px 0px 15px 15px;
     display: block;
-    height: 250px;
+    min-height: 350px;    
     margin: 10px;
 }
 @keyframes boxshadows {
@@ -194,7 +181,7 @@ li a{
     animation: boxshadows 5s linear infinite;
     box-shadow: 0px 0px 15px 15px;
     display: block;
-    height: 250px;
+    min-height: 350px;
     margin: 10px;
     padding-left: 15px;
 }
@@ -230,14 +217,11 @@ li a{
     text-align: center;
     margin-top: 0px;
 }
-
-
-
 #notable{
     animation: boxshadows 5s linear infinite;
     box-shadow: 0px 0px 15px 15px;
     display: block;
-    height: 250px;
+    min-height: 350px;
     margin: 10px;
 }
 @keyframes boxshadows {
@@ -278,7 +262,7 @@ li a{
     animation: boxshadows 5s linear infinite;
     box-shadow: 0px 0px 15px 15px;
     display: block;
-    height: 300px;
+    min-height: 350px;
     margin: 10px;
     padding-left: 15px;
 }
@@ -355,4 +339,211 @@ section{
 
 #image,#social,#contact,#address{
     margin-bottom: 35px;
+}
+#body_content section:hover{
+    transform: translate(0px, -30px);
+}
+#updates{
+    transform: translate(0px, -30px);
+    height: 250px;
+    overflow: scroll;
+    width: 98%;
+    margin-top: 77px;
+    border: 5px solid #deb887;
+    padding: 0px;
+    padding-left: 27px;
+}
+#updates h1{
+    font-size: 26px;
+}
+#updates h3{
+    text-align: center;
+    font-size: 20px;
+}
+#updates li{
+    list-style: square;
+    font-size: 19px;
+}
+}
+/*Media Query */
+
+@media (max-width: 1000px) {
+    body{
+        background-color: #faebd7;
+    }
+    header img{
+        display: none;
+    }
+    nav ul{
+        display: block;
+    }
+    nav ul li{
+        list-style: none;
+    }
+    @keyframes boxshadows {
+        0%{
+            box-shadow: 0px 0px 15px 15px sandybrown;
+        }
+        25%{
+            box-shadow: 20px 16px 15px 15px sandybrown;
+        }
+        50%{
+            box-shadow: -12px 10px 15px 15px sandybrown;
+        }
+        100%{
+            box-shadow: -8px 15px 15px 15px sandybrown;
+        }
+    }
+  #about{
+      padding: 15px;
+    max-width: 1048px;
+    margin-left: auto;
+    margin-right: auto;
+    animation: boxshadows 2s linear infinite;
+    margin-top: 15px;
+    border: 3px solid #deb887;
+  }
+  #about img{
+      width: 150px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  #about h3{
+        text-align:center;
+  }
+  #history{
+    padding: 15px;
+    max-width: 1048px;
+  margin-left: auto;
+  margin-right: auto;
+  animation: boxshadows 2s linear infinite;
+  margin-top: 15px;
+  border: 3px solid #deb887;
+}
+#history img{
+    width: 150px;
+    margin-left: 250px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#history h3{
+      text-align:center;
+}
+#Staffs{
+    padding: 15px;
+    max-width: 1048px;
+  margin-left: auto;
+  margin-right: auto;
+  animation: boxshadows 2s linear infinite;
+  margin-top: 15px;
+  border: 3px solid #deb887;
+}
+#Staffs img{
+    width: 150px;
+    margin-left: 250px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#Staffs h3{
+      text-align:center;
+
+}
+#Students{
+    padding: 15px;
+    max-width: 1048px;
+  margin-left: auto;
+  margin-right: auto;
+  animation: boxshadows 2s linear infinite;
+  margin-top: 15px;
+  border: 3px solid #deb887;
+}
+#Students img{
+    width: 150px;
+    margin-left: 250px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#Students h3{
+      text-align:center;
+}
+#notable{
+    padding: 15px;
+    max-width: 1048px;
+  margin-left: auto;
+  animation: boxshadows 2s linear infinite;
+  margin-top: 15px;
+  margin-right: auto;
+  border: 3px solid #deb887;
+}
+#notable img{
+    width: 150px;
+    margin-left: 250px;
+}
+#notable h3{
+      text-align:center;
+}
+#hod{
+    padding: 15px;
+    max-width: 1048px;
+  margin-left: auto;
+  animation: boxshadows 2s linear infinite;
+  margin-right: auto;
+  margin-top: 15px;
+  border: 3px solid #deb887;
+}
+#hod img{
+    width: 150px;
+    margin-left: 250px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#hod h3{
+      text-align:center;
+}
+#updates{
+    border: 2px solid #deb887;
+    max-width: 1048px;
+
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    animation: boxshadows 2s linear infinite;
+}
+#image{
+    display: none;
+}
+#social,#contact,#address{
+    padding-top: 0px;
+}
+#social,#contact,#address,#image img {
+    display: block;
+    float: none;
+    font-size: 20px;
+    margin-right: 0px;
+}
+#contact,#address{
+    border-left: none;
+    height: 200px;
+    padding-left: 0px;
+}
+footer h1{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:15px;
+}
+#Students,#history,#Staffs,#notable,#hod{
+    margin-top: 0px;
+}
+#address a{
+    text-decoration: none;
+    color: #ff0000;
+}
+#body_content{
+    padding-bottom:0px;
+    border-bottom: none;
+}
+#contact{
+    height: 100px;
+}
 }

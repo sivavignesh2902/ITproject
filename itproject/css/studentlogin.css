@@ -1,305 +1,315 @@
-body{
-    scroll-behavior: smooth;
-    background: antiquewhite;
-}
-header{
-    height: 142px;
-    background: brown;
-    display: block;
-    color: #a0fff8;
-}
-header img{
-    width: 150px;
-}
-header img,header h1{
-    display: inline;
-    float: left;
-}
-header h1{
-    margin-top: 45px;
-    margin-left: 58px;
-    color: #faebd7;
-}
-#body_content{
-    margin-top: 50px;
-}
-nav{
-    margin-left: 356px;
-}
-li a{
-    text-decoration: none;
-    color: #faebd7;
-}
-nav li:hover{
-    animation: showborder 2s linear infinite;
-}
-@keyframes showborder {
-    0%{
-        border-bottom:  3px solid #deb887;
-        border-radius: 25%;
+@media (min-width: 1024px){
+    body{
+        scroll-behavior: smooth;
+        background: antiquewhite;
     }
-    50%{
-        border-bottom:  3px solid #deb887; 
-        border-radius: 50%;
+    header{
+        height: 142px;
+        background: brown;
+        display: block;
+        color: #a0fff8;
     }
-    100%{
-        border-bottom:  3px solid #deb887; 
-        border-radius: 25%;
+    header img{
+        width: 150px;
     }
-}
-
-nav li{
-    display: inline;
-    float: left;
-    list-style: none;
-    font-size: 25px;
-    padding: 15px;
-    margin-top: 35px;    
-}
-li a{
-    text-decoration: none;
-    color: #faebd7;
-}
-#about h3{
-    margin-top: 50px ;
-}
-#main{
-    width: 50%;
-}
-#firstli{
-    margin-left: 110px;
-}
-
-footer li a{
-    color: #ff0000;
-}
-
-#social,#contact,#address,#image img {
-    display: inline;
-    float: left;
-    font-size: 20px;
-    margin-right: 55px;
-}
-
-
-
-#image img{
-    width: 252px;
-    margin-right: 70px;
-}
-#contact,#address{
-    border-left: 5px solid #75796e;
-    height: 200px;
-    padding-left: 94px;
-}
-footer h1{
-    text-align: center;
-    margin-top:55px;
-}
-section{
-    padding-top: 35px;
-}
-#address a{
-    text-decoration: none;
-    color: #ff0000;
-}
-
-
-#image,#social,#contact,#address{
-    margin-bottom: 35px;
-}
-
-form{
-    padding: 25px;
-    box-shadow: 0px 0px 50px 5px #a52a2a;
-    width: 400px;
-    margin-top: 50px;
-    margin-left: 530px;
-    height: 173px;
-}
-#adminform h1{
-    text-align: center;
-}
-form label{
-    font-size: 25px;
-}
-form input{
-    height: 32px;
-    width: 225px;
-}
-input[type='password']{
-    margin-top: 10px;
-    margin-left: 15px;
-}
-input[type='submit']{
-    margin-top: 20px;
-    margin-left: 84px;
-    background: brown;
-    color: wheat;
-    font-size: 22px;
-}
-
-form input{
-    font-size: 16px;
-}
-
-#student_login{
-    margin: 80px;
-}
-#signup{
-    display: none;
-}
-#login h2{
-    margin-left: 600px;
-    font-size: 35px;
-}
-#login form{
-    padding: 25px;
-    box-shadow: 0px 0px 50px 5px #a52a2a;
-    width: 400px;
-    margin-top: 50px;
-    margin-left: 466px;
-    height: 200px;
-}
-#login form input{
-    margin-top: 15px;
-}
-input[name="uname"]{
-    margin-left: 15px;
-}
-input[name="pwd"]{
-    margin-left: 19px;
-}
-#signup h2{
-    margin-left: 433px;
-    font-size: 35px;
-}
-#signup form{
-    padding: 50px;
-    box-shadow: 0px 0px 50px 5px #a52a2a;
-    width: 1200px;
-    margin-top: 50px;
-    margin-left: 57px;
+    header img,header h1{
+        display: inline;
+        float: left;
+    }
+    header h1{
+        margin-top: 45px;
+        margin-left: 58px;
+        color: #faebd7;
+    }
+    #body_content{
+        margin-top: 50px;
+    }
+    nav{
+        margin-left: 356px;
+    }
+    li a{
+        text-decoration: none;
+        color: #faebd7;
+    }
+    nav li:hover{
+        transform: translateY(-7px);
+        text-shadow: 0px 20px 11px black;
+    } 
     
-    height: 773px;
-}
-#next1{
-    margin-left: 110px;
-    margin-top: 29px;
-    margin-bottom: 15px;
-}
-#next2{
-    margin-left: 110px;
-    margin-top: 29px;
-}
-#signup form label{
-    font-size: 19px;
-   
-}
-#signup form input{
-    font-size: 19px;
-    margin-top: 15px;
+    nav li{
+        display: inline;
+        float: left;
+        list-style: none;
+        font-size: 23px;
+        padding: 15px;
+        margin-top: 35px;    
+    }
+    li a{
+        text-decoration: none;
+        color: #faebd7;
+    }
+    #about h3{
+        margin-top: 50px ;
+    }
+    #main{
+        width: 50%;
+    }
+    #firstli{
+        margin-left: 40px;
+    }
     
-}
-
-#fname,#dob,#fathername,#mothername,#email,#caddress,#Username,#npwd,#cpwd{
-    margin-left: 123px;
+    footer li a{
+        color: #ff0000;
+    }
     
-}
-#fname{
-    margin-right: 25px;
-}
-#dob{
-    margin-right: 9px;
-}
-
-
-#fathername{
-    margin-right: 11px;
-}
-#mothername{
-    margin-right: 4px;
-}
-#email{
-    margin-right: 55px;
-}
-
-
-
-
-#lname{
-    margin-left: 131px;
-    margin-right: 70px;
-}
-#motherocc{
-    margin-left: 115px;
-}
-#brgp{
-    margin-left: 124px;
-    margin-right: 60px;}
-#fatherocc{
-    margin-left: 123px;
-    margin-right: 20px;
-}
-#motheroccu{
-    margin-left: 120px;
-    margin-right: 5px;
-}
-#phone{
-    margin-left: 124px;
-    margin-right: 49px;
-}
-
-textarea{
-    margin-left: 15px;
-    margin-top: 10px;
-    min-height: 49px;
-    min-width: 387px;
-}
-input[type='checkbox']{
-    margin-left: 122px;
-    width: 15px;
-}
-
-#Username{
-    margin-right: 65px;
-}
-#npwd{
-    margin-right: 25px;
-}
-#cpwd{
-    margin-right: 15px;
-}
-input[name='signup']{
-    margin-left: 115px;
-    height: 41px;
-    font-size: 23px;
-}
-#next2 {
-    margin-left: 110px;
-    font-size: 21px;
-}
-#next2 a,#next1 a{
-    padding: 10px;
-    animation: blinking 8s linear infinite ;
-    cursor: pointer;
-    font-weight: 1000;
-}
-@keyframes blinking {
-    0%{
-        background-color: brown;
-        color: burlywood;
+    #social,#contact,#address,#image img {
+        display: inline;
+        float: left;
+        font-size: 20px;
+        margin-right: 55px;
     }
-    50%{
-        background-color: burlywood;
-        color: brown;
+    
+    
+    
+    #image img{
+        width: 252px;
+        margin-right: 70px;
     }
-    75%{
-        background-color: brown;
-        color: burlywood;
+    #contact,#address{
+        border-left: 5px solid #75796e;
+        height: 200px;
+        padding-left: 94px;
     }
-    100%{
-        background-color: burlywood;
-        color: brown;
+    footer h1{
+        text-align: center;
+        margin-top:55px;
+    }
+    section{
+        padding-top: 35px;
+    }
+    #address a{
+        text-decoration: none;
+        color: #ff0000;
+    }
+    
+    
+    #image,#social,#contact,#address{
+        margin-bottom: 35px;
+    }
+    
+    form{
+        padding: 25px;
+        box-shadow: 0px 0px 50px 5px #a52a2a;
+        width: 400px;
+        margin-top: 50px;
+        margin-left: 530px;
+        height: 173px;
+    }
+    #adminform h1{
+        text-align: center;
+    }
+    form label{
+        font-size: 25px;
+    }
+    form input{
+        height: 32px;
+        width: 225px;
+    }
+    input[type='password']{
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+    input[type='submit']{
+        margin-top: 20px;
+        margin-left: 84px;
+        background: brown;
+        color: wheat;
+        font-size: 22px;
+    }
+    
+    form input{
+        font-size: 16px;
+    }
+    
+    #student_login{
+        margin: 80px;
+    }
+    #signup{
+        display: none;
+    }
+    #login h2{
+        margin-left: 600px;
+        font-size: 35px;
+    }
+    #login form{
+        padding: 33px;
+        box-shadow: 0px 0px 50px 5px #a52a2a;
+        width: 418px;
+        margin-top: 50px;
+        margin-left: 454px;
+        height: 300px;
+    }
+    #login form input{
+        margin-top: 15px;
+    }
+    input[name="uname"]{
+        margin-left: 15px;
+    }
+    input[name="pwd"]{
+        margin-left: 19px;
+    }
+    #signup h2{
+        margin-left: 433px;
+        font-size: 35px;
+    }
+    #signup form{
+        padding: 50px;
+        box-shadow: 0px 0px 50px 5px #a52a2a;
+        width: 1200px;
+        margin-top: 50px;
+        margin-left: 57px;
+        
+        height: 773px;
+    }
+    #next1{
+        margin-left: 110px;
+        margin-top: 29px;
+        margin-bottom: 15px;
+    }
+    #next2{
+        margin-left: 110px;
+        margin-top: 29px;
+    }
+    #signup form label{
+        font-size: 19px;
+       
+    }
+    #signup form input{
+        font-size: 19px;
+        margin-top: 15px;
+    }
+    
+    #fname,#dob,#fathername,#mothername,#email,#caddress,#Username,#npwd,#cpwd{
+        margin-left: 123px;    
+    }
+    #fname{
+        margin-right: 25px;
+    }
+    #dob{
+        margin-right: 9px;
+    }
+    #fathername{
+        margin-right: 11px;
+    }
+    #mothername{
+        margin-right: 4px;
+    }
+    #email{
+        margin-right: 55px;
+    }
+    #lname{
+        margin-left: 131px;
+        margin-right: 70px;
+    }
+    #motherocc{
+        margin-left: 115px;
+    }
+    #brgp{
+        margin-left: 124px;
+        margin-right: 60px;}
+    #fatherocc{
+        margin-left: 123px;
+        margin-right: 20px;
+    }
+    #motheroccu{
+        margin-left: 120px;
+        margin-right: 5px;
+    }
+    #phone{
+        margin-left: 124px;
+        margin-right: 49px;
+    }
+    textarea{
+        margin-left: 15px;
+        margin-top: 10px;
+        min-height: 49px;
+        min-width: 387px;
+    }
+    input[type='checkbox']{
+        margin-left: 122px;
+        width: 15px;
+    }
+    #Username{
+        margin-right: 65px;
+    }
+    #npwd{
+        margin-right: 25px;
+    }
+    #cpwd{
+        margin-right: 15px;
+    }
+    input[name='signup']{
+        margin-left: 115px;
+        height: 41px;
+        font-size: 23px;
+    }
+    #next2 {
+        margin-left: 110px;
+        font-size: 21px;
+    }
+    #next2 a,#next1 a{
+        padding: 10px;
+        animation: blinking 8s linear infinite ;
+        cursor: pointer;
+        font-weight: 1000;
+    }
+    @keyframes blinking {
+        0%{
+            background-color: brown;
+            color: burlywood;
+        }
+        50%{
+            background-color: burlywood;
+            color: brown;
+        }
+        75%{
+            background-color: brown;
+            color: burlywood;
+        }
+        100%{
+            background-color: burlywood;
+            color: brown;
+        }
+    }
+    #pic{
+        margin-left: 120px;
+    }
+    #login h3{
+        margin-left: 610px;
+    }
+}
+@media (max-width: 1024px){
+    body{
+        scroll-behavior: smooth;
+        background-color: #faebd7;
+    }
+    header{
+        display: none;
+    }
+    #student_login{
+        padding: 10px;
+    }
+    #login{
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #login form {
+        max-width: 500px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #signup{
+        display: none;
     }
 }
